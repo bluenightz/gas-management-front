@@ -1,0 +1,179 @@
+.item-import,
+.item-export{
+	border-left: 4px solid #65ad3f;
+	box-shadow: 0px 0px 4px #ccc;
+	transition: box-shadow 0.5s;
+}
+.item-export{
+	border-color: #c04f33;
+}	
+.item-import:hover,
+.item-export:hover{
+	box-shadow: 0px 0px 8px #999;
+}
+.item-import__detail strong,
+.item-export__detail strong{
+	font-weight: bold;
+	color: #4c7ff0;
+}
+.badge{
+	display: inline-block;
+	padding: 3px 6px;
+	border-radius: 4px;
+	color: #fff;
+}
+.badge-danger{
+	background: #8b0404;
+}
+.badge-default{
+	background: #666;
+}
+.badge-primary{
+	background: #04459b;
+}
+
+body {
+	margin: 0;
+}
+
+.react-autosuggest__container {
+	position: relative;
+	z-index: 99;
+}
+.react-autosuggest__container .react-autosuggest__input {
+	float: left;
+	font-size: 16px;
+	display: block;
+	box-sizing: border-box;
+	line-height: 20px;
+	margin: 0;
+	padding: 8px 12px;
+}
+.react-autosuggest__suggestions-container {
+    position: absolute;
+    top: 4em;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    max-height: 250px;
+    overflow: auto;
+}
+.react-autosuggest__suggestions-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.react-autosuggest__suggestions-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.react-autosuggest__suggestions-list .suggestion_sku {
+	font-weight: bold;
+	font-size: 12px;
+	color: #000;
+}
+.react-autosuggest__suggestions-list .suggestion_sku {
+	font-size: 11px;
+}
+.react-autosuggest__suggestions-list li:hover{
+    background-color: #ccc;
+}
+
+.gas-item {
+	background-color: #5EC5FC;
+	border: 2px solid #41A7DD;
+	color: #fff;
+	display: flex;
+	border-radius: 20px;
+	font-size: 11px;
+	margin: 5px 3px;
+	margin-bottom: 8px;
+	min-height: 50px;
+	cursor: pointer;
+}
+.gas-item:hover {
+	background-color: #77cdfb;
+}
+.gas-item.gas-item--blank:hover {
+	background-color: #eaeaea;
+}
+.gas-item--blank {
+	background-color: #eaeaea;
+	border-color: #ccc;
+	border-style: dashed;
+}
+.gas-item--blank button {
+	line-height: 30px;
+	border-radius: 14px;
+	width: 100%;
+	font-size: 16px;
+	color: #666;
+}
+.gas-item--blank button:hover {
+	box-shadow: 0px 0px 8px 0px #999;
+}
+.gas-item--blank .gas-item__col {
+	width: 100%;
+	text-align: center;
+}
+.gas-item__col {
+	padding: 3px 8px;
+	border-right: 1px solid #fff;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.gas-item__col--psi {
+	background-color: #ED9ECC;
+	border-radius: 18px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #000;
+	border: 1px solid #000;
+}
+.gas-item__col:last-child {
+	border: 0px;
+}
+.gas-item__line2 {
+	font-size: 15px;
+	margin-top: -3px;
+}
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+	width: 100%;
+}
+
+.gaslist-row {
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid #ccc;
+	padding:5px 0;
+}
+.gaslist-row .form-group {
+	margin-bottom: 0;
+}
+.gaslist-row .form-control {
+	padding:3px 8px;
+	background: #fff;
+	font-size: 14px;
+}
+.gaslist-row > *{
+	margin-right: 10px;
+}
+.gaslist {
+	padding: 0;
+}
+.gaslist-btn-wrapper {
+	flex-grow: 1;
+	text-align: right;
+}
+.btn-add-customer {
+	position: absolute;
+	top: 32px;
+	right: 16px;
+}
+.list_in_modal input[type='text'] {
+	border: 1px solid #ccc;
+	padding-left: 5px;
+	padding-right: 5px;
+}
